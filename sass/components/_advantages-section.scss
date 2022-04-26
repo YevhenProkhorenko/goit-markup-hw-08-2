@@ -1,0 +1,18 @@
+.advantages-icon-box {
+    @include flex;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background-color: var(--team-section-color);
+    border-radius: 4px;
+}
+
+.advantages {
+    display: flex;
+    align-items: center;
+}
+
+.advantages__list:not(:last-child) {
+    margin-right: 30px;
+}
+
